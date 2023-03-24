@@ -24,6 +24,10 @@ MK5011の情報があまりに少ないので、ここでChatGPTが喋った内�
 
 MOSTEKと言えば6502なので、6502の事かも？ただ、6502は統合型CPUではないので、そこは不明...
 
+カタログを拾ったので保存。ここには肝心のMK5011がないが...
+
+![image](https://user-images.githubusercontent.com/6181948/227555919-e9956dbc-8b43-4cfd-b88b-075812681aae.png)
+
 ----
 
 ## kekyo
