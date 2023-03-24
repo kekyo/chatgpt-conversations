@@ -33,3 +33,34 @@ C言語において、引数が完全に省略された場合の関数宣言は�
 また、引数が存在する場合には、void と指定することで引数を取らない関数を宣言できますが、
 これは明示的に引数の個数が0であることを示すものであり、可変個引数関数ではありません。
 したがって、コンパイラの実装においても、明示的に void を指定した場合は可変個引数関数ではなく、引数を取らない関数として扱う必要があります。
+
+## kekyo
+
+この使用を担保する、C言語仕様書の該当するセクションを示して下さい
+
+## chatgpt
+
+C言語の仕様書であるC11規格書の6.7.6.3項 "Function declarators"に、関数宣言の形式について記述があります。
+
+この項の4番目の節には、次のように記述されています。
+
+> An empty list in a function declarator that is part of a definition of that function specifies that the function has no parameters.
+> The empty list in a function declarator that is not part of a definition of that function specifies that no information about
+> the number or types of the parameters is supplied.
+
+つまり、関数宣言のパラメータ部が完全に省略された場合、関数定義の一部である場合はパラメータがないことを示し、
+関数定義ではない場合はパラメータの数や型に関する情報が提供されていないことを示します。
+
+また、次の5番目の節には、次のように記述されています。
+
+> If the declarator includes a parameter type list, the list specifies the types of the parameters;
+> the parameter names are optional.
+
+つまり、パラメータ部が明示的に指定されている場合には、パラメータの型が指定され、パラメータ名は省略可能であることが規定されています。
+
+さらに、6番目の節には、次のように記述されています。
+
+> If the declarator includes an empty parameter type list, the function has no parameters.
+
+つまり、void が明示的に指定された場合は、引数のない関数であることが規定されています。
+これは、可変個引数関数ではなく、明示的に引数の数が0であることを示すものです。
