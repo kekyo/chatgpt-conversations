@@ -3,7 +3,7 @@
 Flashdanceの音楽がインターネットラジオから流れたことで、それをShazamに認識させ、40年ぶりぐらいで楽曲の特定に成功しました
 （つまり、子供のころに聞いたきりで刷り込まれていた）。
 
-ただ、子供のころに聞いたのが何だったのかが思い出せない。テレビのCMで、大勢の人がFlashdanceに合わせて踊っていたのような、
+ただ、子供のころに何で聞いたのかが思い出せない。テレビのCMで、大勢の人がFlashdanceに合わせて踊っていたのような、
 そんな記憶しかなく、ChatGPTが話題になり始めたので、試して見ようと考えました（初めてのChatGPTトライです）。
 
 Flashdanceは映画の主題歌です: [PV: Irene Cara: Flashdance - What a feeling](https://www.youtube.com/watch?v=miax0Jpe5mA)
