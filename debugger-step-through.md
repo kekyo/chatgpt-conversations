@@ -13,7 +13,7 @@ DebuggerHidden, DebuggerStepThrough, DebuggerStepperBoundaryの簡潔でわか�
 のような文は、まさに何らかのブログ記事からの引用を基に文書を構成している感じが匂う。
 
 全体的に的を得てない回答で、何を言っているのか良くわからないという感じだった...
-対話中で示したコードの例で、私が回答するなら:
+対話中で示したコードの例で、私が回答するなら（結局自分で実験して検証しました）:
 
 ```csharp
 using System.Diagnostics;
