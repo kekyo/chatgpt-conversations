@@ -1,7 +1,9 @@
 ## 備考
 
 大変興味深い... (GPT-4)
+
 結構まともな回答が得られたし、個人的にはChatGPTの意見に賛同するが、しかし現実が異なる... いったいどういう事なんだ
+まあ、ECMA335でも確実に述べているところはないらしい（未精査）ので、解釈としてはCLR実装依存の話かもしれない。
 
 ----
 
@@ -137,9 +139,11 @@ ECMA-335 (Common Language Infrastructure) 仕様書において、スタティ�
 
 1. I.8.6.1.2 Static field layout - スタティックフィールドのレイアウトに関する記述です。
   > "Static fields are stored in a block of memory that is allocated on a per-type basis when the type is loaded. The layout of this block is determined by the runtime."
+  
   この記述によれば、スタティックフィールドは、型がロードされる際にタイプごとに割り当てられたメモリブロックに保存されます。このブロックのレイアウトはランタイムによって決定されます。
 2. I.8.9.7 Static and instance fields - スタティックフィールドとインスタンスフィールドに関する記述です。
   > "Static fields are fields that are shared amongst all instances of a type, and whose lifetime is that of the AppDomain in which they are created. Static fields can be marked either readonly or volatile. A readonly static field can be assigned a value only during the execution of a class constructor. A volatile static field can be assigned a value at any time, but its value might not be immediately visible to other threads, and its value might not be stored in a register."
+  
   この記述では、スタティックフィールドはタイプのすべてのインスタンス間で共有され、作成されたAppDomainの寿命と同じであることが説明されています。
   ただし、このセクションでは直接的にスタティックフィールドが固定メモリ上に配置されることは述べられていませんが、インスタンスフィールドとの違いが記載されています。
 
