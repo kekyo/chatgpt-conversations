@@ -1,5 +1,7 @@
 ## 備考
 
+(GPT-4)
+
 * https://mastodon.cloud/@kekyo/110155590297847026
 * https://github.com/denysdovhan/wtfjs
 * https://ja.wikipedia.org/wiki/JavaScript
